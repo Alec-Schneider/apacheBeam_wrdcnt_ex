@@ -50,5 +50,5 @@ def main(input_path, output_path):
         output | WriteToText(output_path)
 
 if __name__ == "__main__":
-    logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+    logging.basicConfig(stream=sys.stdout, level=logging.INFO)
     main()
