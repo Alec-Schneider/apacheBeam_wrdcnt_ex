@@ -4,7 +4,13 @@
 
 [wordcount2.py](./wordcount2.py) is a command line script that reads text files from the "--input_path" argument passed to it and write the word counts to the "--output_path" argument <br>
 
-Command line example:
+Command line example:<br>
+Install apaache-beam and other requirements
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ```bash
 python wordcount2.py --input_path="input/*" --output_path="output/word_count.txt"
